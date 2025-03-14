@@ -1,0 +1,43 @@
+Sure! Here's a breakdown of the corresponding command lines for the actions you performed in VS Code:
+
+    Open your project folder (navigate to the project directory in the terminal):
+
+cd path/to/your/repository
+
+Check the current branch (make sure you're on the right branch, e.g., main):
+
+git branch
+
+This will show you the current branch you're on. The active branch will be highlighted with an asterisk (*).
+
+Fetch the latest changes from the remote repository:
+
+git fetch
+
+Pull the latest changes from the remote repository (merge them into your local branch):
+
+git pull origin main
+
+Replace main with the correct branch name if you're working on a different branch.
+
+Commit your local changes (if any): If you've made local changes and want to commit them:
+
+    Stage your changes (add files to the commit):
+
+git add .
+
+or
+
+git add <specific-file-name>
+
+Commit your changes:
+
+    git commit -m "Your commit message"
+
+Push your changes to the remote repository (if you've committed changes):
+
+    git push origin main
+
+    Again, replace main with your branch name if needed.
+
+These commands mirror the actions you would take through the VS Code interface! Let me know if you'd like more info.
